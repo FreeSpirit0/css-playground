@@ -14,8 +14,10 @@ const SliderWrapper: React.FC<Props> = ({ child }) => {
 	
   return (
     <ValueContext.Provider value={value}>
-      <input type="range" min={MIN} max={MAX} onChange={(e) => setValue(parseInt(e.target.value))} value={value}/>
-			{child}
+      <div className="pt-4">
+        <input className="w-40" type="range" min={MIN} max={MAX} onChange={(e) => setValue(parseInt(e.target.value))} value={value}/>
+        {child}
+      </div>
 		</ValueContext.Provider>
   )
 }
