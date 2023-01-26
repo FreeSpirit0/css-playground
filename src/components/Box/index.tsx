@@ -6,7 +6,7 @@ interface BoxProps {
 
 const Box: React.FC<BoxProps> = ({ style }) => {
   return (
-    <div className="border border-indigo-600" style={style}>
+    <div className="w-fit p-1 border border-indigo-600" style={style}>
       DAWG
     </div>
   );
