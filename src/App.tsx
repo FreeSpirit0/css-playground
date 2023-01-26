@@ -16,53 +16,56 @@ function App() {
       <div className="flex-1 flex-col ml-64 mt-2">
 
         {/* Padding Section */}
-        <Section
-          headerName="Padding"
-          child={
-            <>
-              <ExamplePanel
-                exampleHeader="Padding All"
-                exampleDescription="Padding in all direction"
-                exampleChild={<PaddingXY />}
-              />
-              <hr className="m-4" />
-              <ExamplePanel
-                exampleHeader="Padding X"
-                exampleDescription="Padding in X axis"
-                exampleChild={<PaddingX />}
-              />
-              <hr className="m-4" />
-              <ExamplePanel
-                exampleHeader="Padding Y"
-                exampleDescription="Padding in Y axis"
-                exampleChild={<PaddingY />}
-              />
-            </>
-          }
-          categoryName={"Spacing"}
-        />
-
-        {/* Margin Section */}
-        <Section
-          headerName="Margin"
-          child={
-            <>
-              <ExamplePanel
-                exampleHeader="Margin All"
-                exampleDescription="Margin in all direction"
-                exampleChild={<MarginXY />}
-              />
-              <hr className="m-4" />
-              <ExamplePanel
-                exampleHeader="Margin X"
-                exampleDescription="Margin in X axis"
-                exampleChild={<MarginX />}
-              />
-            </>
-          }
-          categoryName={"Spacing"}
-        />
+        <section id="padding">
+          <Section
+            headerName="Padding"
+            child={
+              <>
+                <ExamplePanel
+                  exampleHeader="Padding All"
+                  exampleDescription="Padding in all direction"
+                  exampleChild={<PaddingXY />}
+                />
+                <hr className="m-4" />
+                <ExamplePanel
+                  exampleHeader="Padding X"
+                  exampleDescription="Padding in X axis"
+                  exampleChild={<PaddingX />}
+                />
+                <hr className="m-4" />
+                <ExamplePanel
+                  exampleHeader="Padding Y"
+                  exampleDescription="Padding in Y axis"
+                  exampleChild={<PaddingY />}
+                />
+              </>
+            }
+            categoryName={"Spacing"}
+          />
+        </section>
         
+        {/* Margin Section */}
+        <section id="margin">
+          <Section
+            headerName="Margin"
+            child={
+              <>
+                <ExamplePanel
+                  exampleHeader="Margin All"
+                  exampleDescription="Margin in all direction"
+                  exampleChild={<MarginXY />}
+                />
+                <hr className="m-4" />
+                <ExamplePanel
+                  exampleHeader="Margin X"
+                  exampleDescription="Margin in X axis"
+                  exampleChild={<MarginX />}
+                />
+              </>
+            }
+            categoryName={"Spacing"}
+          />
+        </section>
       </div>
     </div>
   );
