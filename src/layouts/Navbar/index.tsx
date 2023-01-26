@@ -15,6 +15,9 @@ const Navbar = () => {
             CSS Playground
           </span>
         </a>
+        <a className="text-sky-400" href='https://www.youtube.com/watch?v=NwOvu-j_WjY'>
+          Fujii Kaze - Matsuri
+        </a>
         <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
           <ul className="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>

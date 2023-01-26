@@ -14,6 +14,7 @@ function App() {
       <Navbar />
       <Sidebar />
       <div className="flex-1 flex-col ml-64 mt-2">
+
         {/* Padding Section */}
         <Section
           headerName="Padding"
