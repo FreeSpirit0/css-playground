@@ -7,7 +7,7 @@ interface Props {
 export const ValueContext = createContext(0);
 
 const SliderWrapper: React.FC<Props> = ({ child }) => {
-  const MAX = 200
+  const MAX = 50
   const MIN = 0
 
   const [value, setValue] = useState(0)
