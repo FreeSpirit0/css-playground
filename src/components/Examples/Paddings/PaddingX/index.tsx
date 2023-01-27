@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import LabledComponent from "../../../LabledComponent";
-import { ValueContext } from "../../../SliderWrapper";
+import { ValueContext } from "../../../Wrapper/SliderWrapper";
 import Box from "../../../Box";
 
 const PaddingX: React.FC = () => {
